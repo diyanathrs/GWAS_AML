@@ -27,7 +27,6 @@ do
 #SBATCH --mem-per-cpu=6G
 #SBATCH --exclude=ln03,sb017
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 
 
 module load R/3.3.1-intel-2017.03-GCC-6.3

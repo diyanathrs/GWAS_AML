@@ -1,0 +1,11 @@
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 424002 SNPs in 4.05 seconds
+[INFO]  Found a cached LD file containing all SNPs with sumstats in chromosome 1 BP 158739066-160748041: LD_cache/HRC_chr.1.1.158739066.160748041.npz
+[INFO]  Loading LD file LD_cache/HRC_chr.1.1.158739066.160748041
+[INFO]  Done in 40.11 seconds
+[INFO]  Flipping the effect-sign of 2704 SNPs that are flipped compared to the LD panel
+[INFO]  Starting functionally-informed FINEMAP fine-mapping for chromosome 1 BP 158739066-160748041 (3727 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 11.99 seconds
+[INFO]  Done in 12.31 seconds
+[INFO]  Writing fine-mapping results to results_out/del5_7_hit1_chr1_finemap.out

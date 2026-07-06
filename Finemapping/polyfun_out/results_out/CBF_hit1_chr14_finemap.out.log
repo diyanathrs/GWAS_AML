@@ -1,0 +1,11 @@
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 186768 SNPs in 1.81 seconds
+[INFO]  Found a cached LD file containing all SNPs with sumstats in chromosome 14 BP 72157606-74155356: LD_cache/HRC_chr.14.14.72157606.74155356.npz
+[INFO]  Loading LD file LD_cache/HRC_chr.14.14.72157606.74155356
+[INFO]  Done in 37.38 seconds
+[INFO]  Flipping the effect-sign of 3716 SNPs that are flipped compared to the LD panel
+[INFO]  Starting functionally-informed FINEMAP fine-mapping for chromosome 14 BP 72157606-74155356 (4618 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 9.94 seconds
+[INFO]  Done in 10.30 seconds
+[INFO]  Writing fine-mapping results to results_out/CBF_hit1_chr14_finemap.out

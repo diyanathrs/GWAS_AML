@@ -17,7 +17,6 @@ cat > ${subFile1} <<EOF
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -t 1-22
 #$ -wd ${rootpath}/association
 
@@ -51,7 +50,6 @@ do
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -t 1-22
 #$ -wd ${rootpath}/association
 

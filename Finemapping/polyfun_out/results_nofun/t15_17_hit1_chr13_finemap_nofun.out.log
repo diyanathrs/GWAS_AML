@@ -1,0 +1,11 @@
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 199413 SNPs in 5.52 seconds
+[INFO]  Found a cached LD file containing all SNPs with sumstats in chromosome 13 BP 49748280-51744160: LD_cache/HRC_chr.13.13.49748280.51744160.npz
+[INFO]  Loading LD file LD_cache/HRC_chr.13.13.49748280.51744160
+[INFO]  Done in 28.50 seconds
+[INFO]  Flipping the effect-sign of 3048 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed FINEMAP fine-mapping for chromosome 13 BP 49748280-51744160 (4018 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 22.16 seconds
+[INFO]  Done in 22.43 seconds
+[INFO]  Writing fine-mapping results to results_nofun/t15_17_hit1_chr13_finemap_nofun.out

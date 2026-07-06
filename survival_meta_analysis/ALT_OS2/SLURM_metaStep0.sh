@@ -40,7 +40,6 @@ do
 #SBATCH --mem-per-cpu=8G
 #SBATCH --export=ALL
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --workdir=${rootpath}
 
 module load R/3.4.3-foss-2017b-X11-20171023

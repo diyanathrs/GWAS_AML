@@ -27,7 +27,6 @@ do
 #$ -l h_rt=168:00:00
 #$ -l h='!compute3-11.clusterlan'  
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -t 1-22
 #$ -wd ${rootpath}/ResultSummary
 
@@ -51,7 +50,6 @@ EOF
 #$ -l h_rt=168:00:00
 #$ -l h='!compute3-11.clusterlan'
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk
 #$ -wd ${rootpath}/ResultSummary
 
 ## module load apps/R/3.2.3

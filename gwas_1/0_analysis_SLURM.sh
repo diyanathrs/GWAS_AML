@@ -31,7 +31,6 @@ do
 #SBATCH --exclude=ln03,sb017
 #SBATCH --export=ALL
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #####SBATCH --array=1-22
 #SBATCH --workdir=${rootpath}/association
 
@@ -89,7 +88,6 @@ do
 #SBATCH --exclude=sb017                                                                         
 #SBATCH --export=ALL
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --array=1-22
 #SBATCH --workdir=${rootpath}/association
 
@@ -155,7 +153,6 @@ cat > ${subFile3} <<EOF
 #SBATCH --exclude=ln03,sb017
 #SBATCH --export=ALL
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --workdir=${rootpath}/ResultSummary
 
 module load R/3.3.1-intel-2017.03-GCC-6.3
@@ -188,7 +185,6 @@ done
 # #SBATCH --mem-per-cpu=16G                                                                                  
 # #SBATCH --export=ALL                                                                                      
 # #SBATCH --mail-type=FAIL                                                                                  
-# #SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk                                                            
 # #SBATCH --array=1-22                                                                                      
 # #SBATCH --workdir=${rootpath}/ResultSummary
 

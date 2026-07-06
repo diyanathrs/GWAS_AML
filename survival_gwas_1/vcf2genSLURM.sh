@@ -28,7 +28,6 @@ cat > ${subFile1} <<EOF
 #SBATCH --ntasks-per-node=4
 #SBATCH --mem-per-cpu=4G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --array=1-22
 #SBATCH --workdir=${rootpath}/impvSubset
 

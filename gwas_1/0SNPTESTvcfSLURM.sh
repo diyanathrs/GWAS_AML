@@ -35,7 +35,6 @@ cat > ${subFile1} <<EOF
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=12G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --array=1-22
 #SBATCH --workdir=${rootpath}/association
 
@@ -75,7 +74,6 @@ do
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=12G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --array=1-22
 #SBATCH --workdir=${rootpath}/association
 
@@ -106,7 +104,6 @@ cat > ${subFile2} <<EOF
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=12G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --array=1-22
 #SBATCH --workdir=${rootpath}/ResultSummary
 
@@ -134,7 +131,6 @@ cat > ${subFile3} <<EOF
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=12G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --workdir=${rootpath}/ResultSummary
 
 module load R/3.3.1-intel-2017.03-GCC-6.3

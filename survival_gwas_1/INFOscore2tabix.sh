@@ -24,7 +24,6 @@ do
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 
 
 R CMD BATCH --vanilla --no-timing '--args dataprefix="'${prefix}'" phenoprefix="'${nophenos[i]}'" root.dir="'${rootpath}'" ' info2tabix.R
@@ -45,7 +44,6 @@ cat > ${subFile1} <<EOF
 #$ -j yes
 #$ -l h_rt=168:00:00
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk
 #$ -pe smp 4
 
 

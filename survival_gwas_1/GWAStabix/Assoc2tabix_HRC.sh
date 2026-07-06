@@ -34,7 +34,6 @@ do
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -t 1-${#nodata[@]}
 
 
@@ -62,7 +61,6 @@ cat > ${subFile1} <<EOF
 #$ -j yes
 #$ -l h_rt=168:00:00
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk
 #$ -pe smp 2
 #$ -t 1-${#nodata[@]}
 

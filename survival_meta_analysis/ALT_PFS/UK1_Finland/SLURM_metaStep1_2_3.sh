@@ -35,7 +35,6 @@ do
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --workdir=${rootpath}
 
 ##plink --meta-analysis *${nophenos[i]}_*_assoc.res + logscale report-all \\
@@ -69,7 +68,6 @@ subFile1="${nophenos[i]}_${ncl4folder}meta_mhqq.slurm"
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --workdir=${rootpath}
 
 module load R/3.4.3-foss-2017b-X11-20171023
@@ -98,7 +96,6 @@ subFile2="${nophenos[i]}_${ncl4folder}meta_hits.slurm"
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --workdir=${rootpath}
 
 module load R/3.4.3-foss-2017b-X11-20171023

@@ -1,0 +1,21 @@
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 468789 SNPs in 4.50 seconds
+[INFO]  cffi mode is CFFI_MODE.ANY
+[INFO]  R home found: /mnt/nfs/home/c1053225/miniconda3/envs/polyfun-lock/lib/R
+[DEBUG]  Looking for LD_LIBRARY_PATH with: /mnt/nfs/home/c1053225/miniconda3/envs/polyfun-lock/lib/R/bin/Rscript -e cat(Sys.getenv("LD_LIBRARY_PATH"))
+[INFO]  R library path: /mnt/storage/apps/eb/software/zstd/1.5.0-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/lz4/1.9.3-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/XZ/5.2.5-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/libdeflate/1.8-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/FlexiBLAS/3.0.4-GCC-11.2.0/lib:/mnt/storage/apps/eb/software/OpenBLAS/0.3.17-GCC-11.2.0/lib:/mnt/storage/apps/eb/software/binutils/2.37-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/zlib/1.2.11-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/GCCcore/11.2.0/lib64
+[INFO]  LD_LIBRARY_PATH: /mnt/storage/apps/eb/software/zstd/1.5.0-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/lz4/1.9.3-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/XZ/5.2.5-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/libdeflate/1.8-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/FlexiBLAS/3.0.4-GCC-11.2.0/lib:/mnt/storage/apps/eb/software/OpenBLAS/0.3.17-GCC-11.2.0/lib:/mnt/storage/apps/eb/software/binutils/2.37-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/zlib/1.2.11-GCCcore-11.2.0/lib:/mnt/storage/apps/eb/software/GCCcore/11.2.0/lib64
+[DEBUG]  cffi mode is InterfaceType.API
+[INFO]  Default options to initialize R: rpy2, --quiet, --no-save
+[INFO]  R is already initialized. No need to initialize.
+[INFO]  Found a cached LD file containing all SNPs with sumstats in chromosome 2 BP 205023054-207021826: LD_cache/HRC_chr.2.2.205023054.207021826.npz
+[INFO]  Loading LD file LD_cache/HRC_chr.2.2.205023054.207021826
+[INFO]  Done in 33.74 seconds
+[INFO]  Flipping the effect-sign of 2305 SNPs that are flipped compared to the LD panel
+[INFO]  Starting functionally-informed SuSiE fine-mapping for chromosome 2 BP 205023054-207021826 (3345 SNPs)
+[INFO]  Using susieR::susie_suff_stat()
+[WARNING]  R[write to console]: [35mFor large R or large XtX, consider installing the  Rfast package for better performance.[39m
+
+[INFO]  Done in 5.17 seconds
+[INFO]  Using rpy2 version 3.5.6
+[INFO]  Writing fine-mapping results to results_out/Complex_hit2_chr2_susie.out

@@ -26,7 +26,6 @@ do
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -wd ${rootpath}/Hits_checkAll
 
 
@@ -52,7 +51,6 @@ do
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -wd ${rootpath}/Hits_checkAll
 
 R CMD BATCH --vanilla --no-timing '--args root.dir="'${rootpath}'" dataprefix="'${prefix}'" phenoprefix="'${nophenos[i]}'" '  ${rootpath}/hits_all.R
@@ -73,7 +71,6 @@ done
 # #$ -j yes
 # #$ -l h_rt=168:00:00   
 # #$ -m a
-# #$ -M Wei-Yu.Lin@newcastle.ac.uk 
 # #$ -wd ${rootpath}/Hits_checkAll
 
 # module load apps/R/3.2.3

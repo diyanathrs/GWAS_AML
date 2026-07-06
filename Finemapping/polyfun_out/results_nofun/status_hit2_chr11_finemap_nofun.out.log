@@ -1,0 +1,11 @@
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 291309 SNPs in 6.47 seconds
+[INFO]  Found a cached LD file containing all SNPs with sumstats in chromosome 11 BP 66820801-68820121: LD_cache/HRC_chr.11.11.66820801.68820121.npz
+[INFO]  Loading LD file LD_cache/HRC_chr.11.11.66820801.68820121
+[INFO]  Done in 38.64 seconds
+[INFO]  Flipping the effect-sign of 2237 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed FINEMAP fine-mapping for chromosome 11 BP 66820801-68820121 (2988 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 13.34 seconds
+[INFO]  Done in 13.64 seconds
+[INFO]  Writing fine-mapping results to results_nofun/status_hit2_chr11_finemap_nofun.out

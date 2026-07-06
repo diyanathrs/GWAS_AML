@@ -37,7 +37,6 @@ do
 #SBATCH --mem-per-cpu=32G
 #SBATCH --exclude=ln03,sb017
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 
 plink --meta-analysis ${nophenos[i]}*_assoc.res + logscale report-all \\
 --out ${nophenos[i]}_NCL_${ncl4folder}
@@ -62,7 +61,6 @@ subFile1="${nophenos[i]}_${ncl4folder}meta_mhqq.slurm"
 #SBATCH --exclude=ln03,sb017
 #SBATCH --mem-per-cpu=16G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 
 module load R/3.3.1-intel-2017.03-GCC-6.3
 
@@ -90,7 +88,6 @@ subFile2="${nophenos[i]}_${ncl4folder}meta_hits.slurm"
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=8G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 
 module load R/3.3.1-intel-2017.03-GCC-6.3
 

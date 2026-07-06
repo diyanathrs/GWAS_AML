@@ -25,7 +25,6 @@ do
 #$ -l h_rt=168:00:00
 #$ -l h='!compute3-11.clusterlan'   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -wd ${rootpath}/Hits_checkAll
 
 R CMD BATCH --vanilla --no-timing '--args root.dir="'${rootpath}'" dataprefix="'${prefix}'" phenoprefix="'${nophenos[i]}'" '  /home/nwl15/WORKING_DATA/HRCimpvData/hits_check.R
@@ -51,7 +50,6 @@ do
 #$ -l h_rt=168:00:00
 #$ -l h='!compute3-11.clusterlan'  
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -wd ${rootpath}/Hits_checkAll
 
 
@@ -75,7 +73,6 @@ cat > ${subFile2} << EOF
 #$ -l h_rt=168:00:00
 #$ -l h='!compute3-11.clusterlan' 
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -wd ${rootpath}/Hits_checkAll
 
 

@@ -40,7 +40,6 @@ do
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -t 1-22
 #$ -wd ${rootpath}/ResultSummary
 
@@ -63,7 +62,6 @@ EOF
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk
 #$ -wd ${rootpath}/ResultSummary
 
 R CMD BATCH --vanilla --no-timing '--args dataprefix="'${prefix}'" phenoprefix="'${nophenos[i]}'" '  ${rootpath}/res_summaryQQMHSur.R

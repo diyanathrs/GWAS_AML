@@ -38,7 +38,6 @@ do
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 #$ -t 1-22
 #$ -pe smp 8
 #$ -wd ${rootpath}/association

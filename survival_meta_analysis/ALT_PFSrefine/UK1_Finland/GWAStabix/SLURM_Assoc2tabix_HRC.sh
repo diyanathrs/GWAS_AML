@@ -32,7 +32,6 @@ do
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 
 module load R/3.4.3-foss-2017b-X11-20171023
 
@@ -58,7 +57,6 @@ cat > ${subFile1} <<EOF
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=6G
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 
 module load HTSlib/1.4.1-intel-2017.03-GCC-6.3
 

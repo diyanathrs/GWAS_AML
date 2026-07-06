@@ -1,0 +1,11 @@
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 491254 SNPs in 5.00 seconds
+[INFO]  Found a cached LD file containing all SNPs with sumstats in chromosome 2 BP 24362528-26377127: LD_cache/HRC_chr.2.2.24362528.26377127.npz
+[INFO]  Loading LD file LD_cache/HRC_chr.2.2.24362528.26377127
+[INFO]  Done in 26.62 seconds
+[INFO]  Flipping the effect-sign of 2229 SNPs that are flipped compared to the LD panel
+[INFO]  Starting functionally-informed FINEMAP fine-mapping for chromosome 2 BP 24362528-26377127 (3133 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 4.69 seconds
+[INFO]  Done in 4.93 seconds
+[INFO]  Writing fine-mapping results to results_out/status_hit1_chr2_finemap.out

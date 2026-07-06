@@ -31,7 +31,6 @@ do
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 
 plink --meta-analysis *${nophenos[i]}_${ncl4folder}_assoc.res + logscale report-all \\
 --out ${nophenos[i]}_NCL_${ncl4folder}
@@ -55,7 +54,6 @@ subFile1="${nophenos[i]}_${ncl4folder}meta_mhqq.sge"
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 
 module load apps/R/3.2.3
 
@@ -81,7 +79,6 @@ subFile2="${nophenos[i]}_${ncl4folder}meta_hits.sge"
 #$ -j yes
 #$ -l h_rt=168:00:00   
 #$ -m a
-#$ -M Wei-Yu.Lin@newcastle.ac.uk 
 
 ##module load apps/R/3.2.3
 
