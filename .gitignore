@@ -1,0 +1,19 @@
+# data
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+*.bed
+*.txt.gz
+
+data/
+results/
+output/
+logs/
+
+# R/Python junk
+*.RData
+*.rds
+__pycache__/
+*.pkl
+
