@@ -9,7 +9,6 @@
 #SBATCH --exclude=sb017                                                                         
 #SBATCH --export=ALL
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --array=1-22
 #SBATCH --workdir=/nobackup/proj/jamgaml/HRCimpvData/NCL6/association
 

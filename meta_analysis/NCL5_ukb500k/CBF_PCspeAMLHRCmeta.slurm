@@ -7,7 +7,6 @@
 #SBATCH --mem-per-cpu=32G
 #SBATCH --exclude=ln03,sb017
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 
 plink --meta-analysis CBF*_assoc.res + logscale report-all \
 --out CBF_NCL_PCspeAMLHRC

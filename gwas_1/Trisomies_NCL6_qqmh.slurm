@@ -9,7 +9,6 @@
 #SBATCH --exclude=ln03,sb017
 #SBATCH --export=ALL
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #SBATCH --chdir=/nobackup/proj/jamgaml/dean_AML/HRCimpvData/NCL6/ResultSummary
 
 module load R/3.3.1-intel-2017.03-GCC-6.3

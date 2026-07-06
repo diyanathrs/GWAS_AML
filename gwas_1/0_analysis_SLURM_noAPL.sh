@@ -34,7 +34,6 @@ do
 #SBATCH --exclude=ln03,sb017
 #SBATCH --export=ALL
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk
 #####SBATCH --array=1-22
 #SBATCH --chdir=${rootpath}/association
 

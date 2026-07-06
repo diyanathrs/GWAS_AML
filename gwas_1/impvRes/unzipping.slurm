@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=1                                                       
 #SBATCH --mem-per-cpu=4G                                                       
 #SBATCH --mail-type=FAIL                                                        
-#SBATCH --mail-user=Wei-Yu.Lin@newcastle.ac.uk                                  
 #SBATCH --array=1-22                                                            
 #SBATCH --workdir=/nobackup/proj/jamgaml/HRCimpvData/NCL6/impvRes
 
