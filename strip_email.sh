@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET="Wei-Yu.Lin@newcastle.ac.uk"
+TARGET="@newcastle.ac.uk"
 
 find . -type f -name "*.slurm" | while read -r file; do
     echo "Processing: $file"
